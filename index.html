@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>کارما</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800;900&display=swap');
+      body {
+        font-family: 'Vazirmatn', sans-serif; /* Fallback */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+      }
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fadeInUp {
+        animation: fadeInUp 0.5s ease-out forwards;
+      }
+      @keyframes slideDown {
+        from {
+          max-height: 0;
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          max-height: 500px; /* Adjust as needed */
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-slideDown {
+        overflow: hidden;
+        animation: slideDown 0.4s ease-out forwards;
+      }
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+        .printable-report, .printable-report * {
+          visibility: visible;
+        }
+        .printable-report {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        .no-print {
+          display: none !important;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.3",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://esm.run/@google/genai"
+  }
+}
+</script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Vazirmatn', 'sans-serif'],
+          },
+          typography: {
+            DEFAULT: {
+              css: {
+                'code::before': { content: '""' },
+                'code::after': { content: '""' }
+              }
+            }
+          }
+        },
+      },
+    }
+  </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-50 text-gray-800">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

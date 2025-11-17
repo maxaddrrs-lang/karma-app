@@ -1,0 +1,371 @@
+{
+  "lang": "fa",
+  "dir": "rtl",
+  "number_locale": "fa-IR",
+  "header": {
+    "home": "خانه",
+    "campaigns": "مشارکت در کمپین",
+    "karmaClub": "باشگاه کارما",
+    "adminPanel": "پنل ادمین",
+    "createCampaign": "ایجاد کمپین",
+    "userProfile": "پروفایل کاربری",
+    "logout": "خروج",
+    "login": "ورود / ثبت نام"
+  },
+  "bottomNav": {
+    "home": "خانه",
+    "missions": "ماموریت‌ها",
+    "karmaClub": "باشگاه",
+    "notifications": "اطلاع رسانی",
+    "profile": "پروفایل"
+  },
+  "campaignCard": {
+    "by": "توسط:",
+    "viewAndJoin": "مشاهده و مشارکت",
+    "completed": "{{percent}}٪ تکمیل شده",
+    "totalAmount": "مجموع:",
+    "million": "میلیون",
+    "missionReport": "گزارش ماموریت",
+    "toman": "تومان"
+  },
+  "campaignDetail": {
+    "mission": "ماموریت",
+    "completedPercent": "{{percent}}٪ تکمیل شده",
+    "toman": "تومان",
+    "daysLeft": "{{days}} روز مانده",
+    "completedStatus": "تکمیل شده!",
+    "completedMessage": "این کمپین با موفقیت به هدف خود رسیده است. از تمام شرکت‌کنندگان سپاسگزاریم.",
+    "campaigner": "برگزارکننده کمپین",
+    "verifiedAccount": "حساب تایید شده",
+    "sponsorMessage": "گفتگو با مدیر {{brandName}}",
+    "continueReading": "ادامه دارد",
+    "close": "بستن",
+    "missions": "ماموریت ها",
+    "tasksCount": "{{count}}",
+    "completedTask": "تایید شده",
+    "pendingTask": "در حال بررسی",
+    "endedTask": "پایان یافته",
+    "comments": "کامنت‌ها",
+    "writeComment": "نظر خود را بنویسید...",
+    "sendComment": "ارسال کامنت",
+    "toast": {
+      "taskCompleted": "شما قبلا این ماموریت را با موفقیت انجام داده‌اید.",
+      "requestSentWithId": "درخواست شما با شناسه ذخیره شده ارسال شد.",
+      "requestSentForReview": "درخواست شما برای بررسی ارسال شد.",
+      "missionSuccess": "ماموریت «{{description}}» با موفقیت انجام شد!"
+    },
+    "goToMissions": "انجام ماموریت‌ها",
+    "missionsEnded": "ماموریت‌ها پایان یافته",
+    "deleteComment": "حذف کامنت"
+  },
+  "time": {
+    "now": "همین الان",
+    "minute": "{{count}} دقیقه پیش",
+    "minutes": "{{count}} دقیقه پیش",
+    "hour": "{{count}} ساعت پیش",
+    "hours": "{{count}} ساعت پیش",
+    "day": "{{count}} روز پیش",
+    "days": "{{count}} روز پیش",
+    "month": "{{count}} ماه پیش",
+    "months": "{{count}} ماه پیش",
+    "year": "{{count}} سال پیش",
+    "years": "{{count}} سال پیش"
+  },
+  "campaignsList": {
+    "title": "کمپین‌های فعال",
+    "subtitle": "یک کمپین را برای مشارکت و تاثیرگذاری انتخاب کنید.",
+    "filters": "فیلترها",
+    "searchPlaceholder": "ماموریت، برند...",
+    "category": "دسته‌بندی",
+    "location": "مکان",
+    "locationPlaceholder": "مثلا: تهران",
+    "resetFilters": "حذف فیلترها",
+    "noCampaigns": "کمپینی با این مشخصات یافت نشد!",
+    "tryChangingFilters": "فیلترهای خود را تغییر دهید یا حذف کنید.",
+    "showAllCampaigns": "نمایش همه کمپین‌ها"
+  },
+  "createCampaign": {
+    "editTitle": "ویرایش کمپین",
+    "createTitle": "ایجاد کمپین جدید",
+    "subtitle": "با کارما، تاثیرگذاری ساده‌تر از همیشه است.",
+    "steps": {
+      "basicInfo": "اطلاعات پایه",
+      "defineTasks": "تعریف ماموریت‌ها",
+      "payment": "پرداخت",
+      "finish": "پایان"
+    },
+    "basicInfo": {
+      "title": "اطلاعات پایه کمپین",
+      "subtitle": "برای شروع، اطلاعات کمپین سفارشی خود را وارد کنید. تمام موارد اجباری است.",
+      "subtitleTemplate": "شما در حال استفاده از یک الگوی آماده هستید. فقط موارد ضروری را تکمیل کنید.",
+      "quantityLabel": "{{label}}",
+      "calculatedTarget": "مبلغ هدف (محاسبه شده)",
+      "toman": "تومان",
+      "missionTitle": "عنوان ماموریت",
+      "missionPlaceholder": "مثلا: تهیه ۱۰۰ پرس غذای گرم برای کودکان کار",
+      "brandName": "نام برند یا مجموعه شما",
+      "brandPlaceholder": "رستوران برادران",
+      "location": "مکان",
+      "locationPlaceholder": "تهران",
+      "category": "دسته بندی",
+      "duration": "مدت زمان کمپین (روز)",
+      "sponsorMessage": "پیام حامی",
+      "brandLogo": "لوگوی برند (اختیاری)",
+      "mainImage": "تصویر اصلی ماموریت (اختیاری)",
+      "generateWithAi": "ساخت پیام و تصویر با هوش مصنوعی",
+      "generating": "در حال ساخت..."
+    },
+    "defineTasks": {
+      "title": "تعریف ماموریت‌ها",
+      "subtitle": "ماموریت‌هایی را که کاربران برای حمایت از کمپین شما باید انجام دهند، مشخص کنید.",
+      "suggestedTasks": "ماموریت‌های پیشنهادی",
+      "selectedTasks": "ماموریت‌های انتخاب شده",
+      "taskCountHint": "حداقل ۳ و حداكثر ۷ ماموریت انتخاب کنید.",
+      "taskCountError": "تعداد ماموریت‌های انتخابی باید بین ۳ تا ۷ باشد.",
+      "addCustomTask": "+ افزودن ماموریت سفارشی",
+      "cancelAdd": "لغو افزودن",
+      "newCustomTask": "ماموریت سفارشی جدید",
+      "taskDescription": "شرح ماموریت",
+      "impactPoints": "امتیاز تاثیر (۱ تا ۱۰)",
+      "add": "افزودن"
+    },
+    "payment": {
+      "title": "بررسی و پرداخت",
+      "finalCost": "هزینه نهایی برای فعال‌سازی کمپین:",
+      "toman": "تومان",
+      "guarantee": "این مبلغ در سیستم تا تحقق اهداف شما امانت خواهد بود.",
+      "confirmAndPay": "ثبت نهایی و پرداخت"
+    },
+    "finish": {
+      "title": "کمپین شما با موفقیت ثبت شد!",
+      "subtitle": "کمپین شما پس از بررسی توسط کارشناسان ما، فعال خواهد شد. از طریق پنل کاربری خود می‌توانید وضعیت آن را پیگیری کنید.",
+      "viewCampaigns": "مشاهده کمپین‌ها",
+      "backToHome": "بازگشت به خانه"
+    },
+    "submitting": {
+      "submitting": "در حال ثبت کمپین شما...",
+      "creatingImage": "در حال ساخت یک تصویر خلاقانه برای ماموریت شما...",
+      "finalizing": "درحال ذخیره سازی نهایی..."
+    },
+    "navigation": {
+      "next": "مرحله بعد",
+      "prev": "مرحله قبل"
+    },
+    "toast": {
+      "fillInfo": "لطفا تمام اطلاعات پایه را به درستی تکمیل کنید.",
+      "taskCount": "شما باید بین ۳ تا ۷ ماموریت انتخاب کنید.",
+      "missionTitleFirst": "لطفا ابتدا عنوان ماموریت و نام برند را مشخص کنید.",
+      "aiError": "خطا در ارتباط با سرویس هوش مصنوعی.",
+      "apiKeyMissing": "کلید API هوش مصنوعی تنظیم نشده است. این قابلیت غیرفعال است."
+    },
+    "confirmation": {
+      "title": "تایید نهایی",
+      "message": "آیا از ثبت نهایی کمپین خود با اطلاعات وارد شده اطمینان دارید؟",
+      "confirm": "بله، ثبت کن"
+    }
+  },
+  "dashboard": {
+    "contributionValue": "ارزش ریالی مشارکت شما",
+    "toman": "تومان",
+    "viewTransactions": "مشاهده جزئیات تراکنش‌ها",
+    "history": "تاریخچه",
+    "searchPlaceholder": "جستجوی ماموریت‌ها",
+    "searchLabel": "جستجو",
+    "categories": "دسته‌بندی‌های کمک",
+    "viewAll": "مشاهده همه",
+    "suggestedMissions": "ماموریت‌های پیشنهادی",
+    "featuredMission": "ماموریت ویژه",
+    "weeklyLeague": "لیگ هفتگی",
+    "viewLeagues": "مشاهده لیگ‌ها",
+    "currentLeague": "لیگ فعلی",
+    "weeklyCoins": "{{count}} سکه هفتگی",
+    "progressToNext": "پیشرفت تا لیگ بعدی"
+  },
+  "donationBalance": {
+    "title": "گزارش مالی",
+    "totalContribution": "مجموع ارزش ریالی مشارکت شما",
+    "toman": "تومان",
+    "karmaCoinsBalance": "موجودی سکه‌های کارما:",
+    "withdraw": "برداشت",
+    "topUp": "افزایش موجودی",
+    "transactionHistory": "تاریخچه تراکنش سکه‌ها",
+    "success": "موفق",
+    "noHistory": "تاریخچه‌ای برای نمایش وجود ندارد."
+  },
+  "home": {
+    "welcome": "به پلتفرم {{platformName}} خوش آمدید",
+    "karma": "کارما",
+    "subtitle": "جایی که برندها و مردم برای ایجاد تاثیری مثبت و پایدار گرد هم می‌آیند. شما هم می‌توانید بخشی از این حرکت بزرگ باشید.",
+    "createCampaign": "ایجاد کمپین جدید",
+    "joinCampaign": "مشارکت در کمپین‌ها"
+  },
+  "karmaClub": {
+    "title": "باشگاه کارما",
+    "subtitle": "از سکه‌های خود برای دریافت جوایز و حمایت بیشتر استفاده کنید.",
+    "yourBalance": "موجودی شما",
+    "coins": "سکه",
+    "quantityLeft": "موجودی: {{count}} عدد",
+    "redeem": "دریافت جایزه",
+    "unavailable": "ناموجود",
+    "notEnoughCoins": "متاسفانه سکه‌های شما برای دریافت این جایزه کافی نیست.",
+    "redeemSuccess": "تبریک! جایزه با موفقیت برای شما ثبت شد.",
+    "confirmTitle": "تایید دریافت جایزه",
+    "confirmMessage": "آیا می‌خواهید جایزه",
+    "for": "را در ازای",
+    "confirmButton": "بله، دریافت می‌کنم"
+  },
+  "login": {
+    "title": "ورود یا ثبت‌نام",
+    "subtitle": "با وارد کردن ایمیل یا شماره موبایل خود به کارما بپیوندید.",
+    "emailOrPhone": "ایمیل یا شماره موبایل",
+    "placeholder": "example@mail.com یا 09123456789",
+    "login": "ورود",
+    "error": {
+      "empty": "لطفا ایمیل یا شماره موبایل خود را وارد کنید.",
+      "invalid": "فرمت ایمیل یا شماره موبایل وارد شده صحیح نیست."
+    }
+  },
+  "notifications": {
+    "news": "اخبار",
+    "karmaClub": "باشگاه کارما",
+    "personal": "پیام‌های شخصی",
+    "noMessages": "پیامی برای نمایش وجود ندارد.",
+    "noMessagesSubtitle": "در حال حاضر پیامی در این بخش یافت نشد.",
+    "donationOn": "کمک در تاریخ {{date}}",
+    "videoUnsupported": "مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند."
+  },
+  "notificationsContext": {
+    "newsTitle": "خبرنامه کارما",
+    "karmaClubTitle": "باشگاه کارما",
+    "supportMessageTitle": "پیام از طرف پشتیبانی",
+    "sentMessageTitle": "شما به {{recipient}}",
+    "deleteConfirmation": "آیا از حذف این اعلان اطمینان دارید؟"
+  },
+  "profile": {
+    "verified": "حساب تایید شده",
+    "socialIds": "شناسه‌های شبکه‌های اجتماعی",
+    "socialIdsHint": "با وارد کردن شناسه‌های خود، انجام ماموریت‌ها برای شما سریع‌تر خواهد شد.",
+    "saveIds": "ذخیره شناسه‌ها",
+    "randomMission": "ماموریت تصادفی",
+    "randomMissionHint": "برای کمک روزانه بدون فراموشی",
+    "new": "جدید",
+    "missionReminders": "یادآور ماموریت‌ها",
+    "yourCoins": "موجودی سکه‌های شما",
+    "enableNotifications": "فعال‌سازی اعلان‌ها",
+    "settings": "تنظیمات",
+    "chatWithAdmin": "چت با ادمین",
+    "aboutUs": "درباره ما",
+    "leaderboard": "تابلوی امتیازات",
+    "partners": "مراکز همکار",
+    "logout": "خروج",
+    "alert": {
+      "saved": "شناسه‌های شبکه‌های اجتماعی شما با موفقیت ذخیره شد!"
+    }
+  },
+  "socialModal": {
+    "title": "انجام ماموریت",
+    "prompt": "برای تایید انجام ماموریت «{{description}}»، لطفا شناسه کاربری خود در {{platform}} را وارد کنید.",
+    "submit": "ارسال برای بررسی",
+    "error": "لطفا شناسه {{platform}} خود را وارد کنید."
+  },
+  "categories_list": {
+    "food": "غذا و معیشت",
+    "health": "سلامت و درمان",
+    "education": "آموزش",
+    "environment": "محیط زیست",
+    "animals": "حمایت از حیوانات",
+    "children": "کودکان",
+    "entrepreneurship": "کارآفرینی",
+    "other": "متفرقه"
+  },
+  "mission_details": {
+    "food": {
+      "label": "تهیه غذا برای نیازمندان",
+      "quantityLabel": "تعداد وعده غذا"
+    },
+    "school_supplies": {
+      "label": "تهیه کیف با لوازم تحریر",
+      "quantityLabel": "تعداد کیف"
+    },
+    "medical": {
+      "label": "هزینه درمان کودکان سرطانی",
+      "quantityLabel": "تعداد کودکان تحت پوشش"
+    },
+    "production": {
+      "label": "راه اندازی تولیدی",
+      "quantityLabel": "تعداد واحد تولیدی"
+    }
+  },
+  "karma_club_rewards": {
+    "investment": {
+      "title": "سرمایه گذاری",
+      "clothing": "سرمایه‌گذاری در تولیدی پوشاک",
+      "clothing_desc": "با هر ۱۰۰ سکه، یک سهم در سود این تولیدی کوچک داشته باشید.",
+      "shoes": "سرمایه‌گذاری در تولیدی کفش",
+      "shoes_desc": "در پروژه تولید کفش‌های سازگار با محیط زیست شریک شوید.",
+      "home_goods": "سرمایه‌گذاری در لوازم خانگی",
+      "home_goods_desc": "از تولیدکنندگان داخلی لوازم خانگی حمایت کنید.",
+      "karma_coin": "سرمایه‌گذاری در ارز کارما",
+      "karma_coin_desc": "ارز دیجیتال کارما را خریداری کرده و در رشد پلتفرم سهیم باشید."
+    },
+    "discounts": {
+      "title": "تخفیف ها",
+      "store": "کد تخفیف فروشگاه",
+      "store_desc": "کد تخفیف ۳۰٪ برای خریدهای بالای ۲۰۰ هزار تومان از فروشگاه‌های منتخب کارما.",
+      "store_verified": "کد تخفیف فروشگاه سبز",
+      "store_verified_desc": "کد تخفیف ویژه برای فروشگاه‌های حامی محیط زیست.",
+      "restaurant": "کد تخفیف رستوران",
+      "restaurant_desc": "کد تخفیف ۵۰٪ برای سفارش اول در رستوران‌های منتخب.",
+      "appliances": "کد تخفیف لوازم خانگی",
+      "appliances_desc": "تخفیف ویژه برای خرید لوازم خانگی ایرانی."
+    },
+    "courses": {
+      "title": "دوره های آموزشی",
+      "photoshop": "دوره آنلاین فتوشاپ",
+      "photoshop_desc": "دسترسی به دوره کامل و جامع آموزش فتوشاپ.",
+      "online": "دوره آموزشی آنلاین",
+      "online_desc": "دسترسی به یکی از دوره‌های آموزشی آنلاین منتخب.",
+      "filimo": "اشتراک فیلیمو",
+      "filimo_desc": "اشتراک یک ماهه سرویس تماشای آنلاین فیلم و سریال فیلیمو.",
+      "photoshop_premium": "خرید فتوشاپ پرمیوم",
+      "photoshop_premium_desc": "دریافت لایسنس یک‌ساله نرم‌افزار فتوشاپ."
+    },
+    "vouchers": {
+      "title": "کارت‌های هدیه"
+    }
+  },
+  "general": {
+    "select": "انتخاب کنید...",
+    "toman": "تومان"
+  },
+  "campaignContext": {
+    "campaignCompletedNotification": "تبریک! کمپین «{{campaignName}}» با موفقیت به پایان رسید. شما با {{userImpact}} امتیاز در این موفقیت سهیم بودید.",
+    "taskApprovedNotification": "ماموریت «{{taskName}}» شما برای کمپین «{{campaignName}}» تایید شد! {{coins}} سکه و {{points}} امتیاز دریافت کردید.",
+    "taskRejectedNotification": "متاسفانه ماموریت «{{taskName}}» شما برای کمپین «{{campaignName}}» رد شد."
+  },
+  "campaignProgressBar": {
+    "progress": "میزان پیشرفت",
+    "target": "مبلغ هدف",
+    "toman": "تومان",
+    "daysLeft": "روز مانده"
+  },
+  "admin": {
+    "notifications": {
+      "title": "مدیریت اطلاعیه‌ها",
+      "createTitle": "ایجاد اطلاعیه جدید",
+      "messageLabel": "متن پیام",
+      "placeholder": "پیام خود را اینجا بنویسید...",
+      "typeLabel": "نوع اطلاعیه",
+      "videoLabel": "پیوست ویدیو (اختیاری)",
+      "sendButton": "ارسال اطلاعیه",
+      "newsListTitle": "لیست اخبار",
+      "karmaListTitle": "لیست اطلاعیه‌های باشگاه کارما",
+      "delete": "حذف",
+      "noItems": "موردی برای نمایش وجود ندارد.",
+      "enterText": "لطفا متن پیام را وارد کنید."
+    },
+    "predefinedRewardEditHint": "توجه: شما در حال ویرایش یک جایزه پیش‌فرض هستید. تغییر نام و توضیحات در اینجا، متن نمایش داده شده به کاربر را تغییر نمی‌دهد.",
+    "deleteRewardConfirmation": "آیا از حذف این جایزه اطمینان دارید؟",
+    "fillRewardFields": "لطفا تمام فیلدهای جایزه جدید را به درستی پر کنید."
+  }
+}

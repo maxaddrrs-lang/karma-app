@@ -1,0 +1,357 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "number_locale": "en-US",
+  "header": {
+    "home": "Home",
+    "campaigns": "Join Campaigns",
+    "karmaClub": "Karma Club",
+    "adminPanel": "Admin Panel",
+    "createCampaign": "Create Campaign",
+    "userProfile": "User Profile",
+    "logout": "Logout",
+    "login": "Login / Register"
+  },
+  "bottomNav": {
+    "home": "Home",
+    "missions": "Missions",
+    "karmaClub": "Karma Club",
+    "notifications": "Notifications",
+    "profile": "Profile"
+  },
+  "campaignCard": {
+    "by": "By:",
+    "viewAndJoin": "View & Join",
+    "completed": "{{percent}}% Completed",
+    "totalAmount": "Total:",
+    "million": "M",
+    "missionReport": "Mission Report",
+    "toman": "Toman"
+  },
+  "campaignDetail": {
+    "missionDetails": "Mission Details",
+    "mission": "Mission",
+    "creationTime": "Creation time {{date}}",
+    "completedPercent": "{{percent}}% completed",
+    "toman": "Toman",
+    "daysLeft": "{{days}} days left",
+    "completedStatus": "Completed!",
+    "completedMessage": "This campaign has successfully reached its goal. Thanks to all participants.",
+    "campaigner": "Campaigner",
+    "verifiedAccount": "Verified Account from {{date}}",
+    "sponsorMessage": "A talk with the manager of {{brandName}}",
+    "continueReading": "Continue reading",
+    "close": "Close",
+    "missions": "Missions",
+    "tasksCount": "{{count}}",
+    "completedTask": "✓",
+    "pendingTask": "...",
+    "endedTask": "Ended",
+    "comments": "Comments",
+    "writeComment": "Write your comment...",
+    "sendComment": "Send Comment",
+    "time": {
+      "now": "Just now",
+      "minute": "{{count}} minute ago",
+      "minutes": "{{count}} minutes ago",
+      "hour": "{{count}} hour ago",
+      "hours": "{{count}} hours ago",
+      "day": "{{count}} day ago",
+      "days": "{{count}} days ago",
+      "month": "{{count}} month ago",
+      "months": "{{count}} months ago",
+      "year": "{{count}} year ago",
+      "years": "{{count}} years ago"
+    },
+    "toast": {
+      "taskCompleted": "You have already completed this task.",
+      "requestSentWithId": "Your request was sent with the saved ID.",
+      "requestSentForReview": "Your request has been sent for review.",
+      "missionSuccess": "Mission \"{{description}}\" completed successfully!"
+    },
+    "goToMissions": "Go to Missions",
+    "missionsEnded": "Missions Ended",
+    "deleteComment": "Delete Comment"
+  },
+  "campaignsList": {
+    "title": "Active Campaigns",
+    "subtitle": "Choose a campaign to join and make an impact.",
+    "filters": "Filters",
+    "searchPlaceholder": "Mission, brand...",
+    "category": "Category",
+    "location": "Location",
+    "locationPlaceholder": "e.g., Tehran",
+    "resetFilters": "Clear Filters",
+    "noCampaigns": "No campaigns found with these criteria!",
+    "tryChangingFilters": "Try changing or clearing your filters.",
+    "showAllCampaigns": "Show All Campaigns"
+  },
+  "createCampaign": {
+    "editTitle": "Edit Campaign",
+    "createTitle": "Create New Campaign",
+    "subtitle": "With Karma, making an impact is easier than ever.",
+    "steps": {
+      "basicInfo": "Basic Info",
+      "defineTasks": "Define Tasks",
+      "payment": "Payment",
+      "finish": "Finish"
+    },
+    "basicInfo": {
+      "title": "Basic Campaign Information",
+      "subtitle": "To start, enter the general information for your mission.",
+      "missionType": "Main Mission Type (for auto calculation)",
+      "quantityLabel": "{{label}}",
+      "calculatedTarget": "Target Amount (calculated)",
+      "toman": "Toman",
+      "missionTitle": "Mission Title",
+      "missionPlaceholder": "e.g., Preparing 100 hot meals for working children",
+      "brandName": "Your Brand or Organization Name",
+      "brandPlaceholder": "Brothers Restaurant",
+      "location": "Location",
+      "locationPlaceholder": "Tehran",
+      "category": "Category",
+      "duration": "Campaign Duration (days)",
+      "sponsorMessage": "Sponsor Message",
+      "brandLogo": "Brand Logo (optional)",
+      "mainImage": "Main Mission Image (optional)",
+      "generateWithAi": "Generate Message & Image with AI",
+      "generating": "Generating..."
+    },
+    "defineTasks": {
+      "title": "Define Tasks",
+      "subtitle": "Specify the tasks users must complete to support your campaign.",
+      "suggestedTasks": "Suggested Tasks",
+      "selectedTasks": "Selected Tasks",
+      "selectedCount": "{{count}}",
+      "taskCountHint": "Select a minimum of 3 and a maximum of 7 tasks.",
+      "taskCountError": "The number of selected tasks must be between 3 and 7.",
+      "addTask": "Add Task",
+      "removeTask": "Remove Task",
+      "addCustomTask": "+ Add Custom Task",
+      "cancelAdd": "Cancel Add",
+      "newCustomTask": "New Custom Task",
+      "taskDescription": "Task Description",
+      "impactPoints": "Impact Points (1-10)",
+      "add": "Add"
+    },
+    "payment": {
+      "title": "Review and Payment",
+      "finalCost": "Final cost to activate the campaign:",
+      "toman": "Toman",
+      "guarantee": "This amount is considered a guarantee for awarding prizes to participants.",
+      "confirmAndPay": "Final Confirmation and Payment"
+    },
+    "finish": {
+      "title": "Your campaign has been successfully submitted!",
+      "subtitle": "Your campaign will be activated after being reviewed by our experts. You can track its status through your user panel.",
+      "viewCampaigns": "View Campaigns",
+      "backToHome": "Back to Home"
+    },
+    "submitting": {
+      "submitting": "Submitting your campaign...",
+      "creatingImage": "Creating a creative image for your mission...",
+      "finalizing": "Finalizing save..."
+    },
+    "navigation": {
+      "next": "Next Step",
+      "prev": "Previous Step"
+    },
+    "toast": {
+      "fillInfo": "Please complete all basic information.",
+      "taskCount": "You must select between 3 and 7 tasks.",
+      "missionTitleFirst": "Please specify the mission title first.",
+      "aiError": "Error connecting to the AI service."
+    },
+    "confirmation": {
+      "title": "Final Confirmation",
+      "message": "Are you sure you want to submit the campaign with the entered information?",
+      "confirm": "Yes, submit"
+    }
+  },
+  "dashboard": {
+    "contributionValue": "Monetary Value of Your Contributions",
+    "toman": "Toman",
+    "viewTransactions": "View Transaction Details",
+    "history": "History",
+    "searchPlaceholder": "Search missions",
+    "missions": "Missions",
+    "categories": "Donation Categories",
+    "viewAll": "View All",
+    "suggestedMissions": "Suggested Missions"
+  },
+  "donationBalance": {
+    "title": "Financial Report",
+    "totalContribution": "Total Monetary Value of Your Contributions",
+    "toman": "Toman",
+    "karmaCoinsBalance": "Karma Coins Balance:",
+    "withdraw": "Withdraw",
+    "topUp": "Top up",
+    "transactionHistory": "Coin Transaction History",
+    "success": "Success",
+    "noHistory": "No history to display."
+  },
+  "home": {
+    "welcome": "Welcome to the {{platformName}} Platform",
+    "karma": "Karma",
+    "subtitle": "Where brands and people come together to create a positive and lasting impact. You can be a part of this great movement too.",
+    "createCampaign": "Create New Campaign",
+    "joinCampaign": "Join Campaigns"
+  },
+  "karmaClub": {
+    "title": "Karma Club",
+    "subtitle": "Use your coins to get rewards and provide more support.",
+    "balance": "Your Coin Balance",
+    "toast": {
+      "success": "Congratulations! The reward \"{{rewardName}}\" has been successfully registered for you.",
+      "error": "Unfortunately, you do not have enough coins to receive this reward."
+    },
+    "inStock": "{{quantity}} in stock",
+    "getReward": "Get Reward",
+    "soldOut": "Sold Out",
+    "cost": "{{cost}} coins"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "points": "points",
+    "you": "You"
+  },
+  "login": {
+    "title": "Login or Register",
+    "subtitle": "Join Karma by entering your email or mobile number.",
+    "emailOrPhone": "Email or Mobile Number",
+    "placeholder": "example@mail.com or 09123456789",
+    "login": "Login",
+    "error": {
+      "empty": "Please enter your email or mobile number.",
+      "invalid": "The format of the entered email or mobile number is incorrect."
+    }
+  },
+  "notifications": {
+    "news": "News",
+    "karmaClub": "Karma Club",
+    "personal": "Personal Messages",
+    "noMessages": "No messages to display.",
+    "noMessagesSubtitle": "Currently, no messages were found in this section."
+  },
+  "profile": {
+    "verified": "Verified account",
+    "socialIds": "Social Media IDs",
+    "socialIdsHint": "By entering your IDs, completing missions will be faster for you.",
+    "saveIds": "Save IDs",
+    "randomMission": "Random Mission",
+    "randomMissionHint": "For donation every day without forget",
+    "new": "New",
+    "missionReminders": "Mission Reminders",
+    "yourCoins": "Your Coins Balance",
+    "enableNotifications": "Enable Notifications",
+    "settings": "Settings",
+    "chatWithAdmin": "Chat with Admin",
+    "aboutUs": "About Us",
+    "leaderboard": "Leaderboard",
+    "partners": "Partner Centers",
+    "logout": "Logout",
+    "alert": {
+      "saved": "Your social media IDs have been saved successfully!"
+    }
+  },
+  "socialModal": {
+    "title": "Complete Mission",
+    "prompt": "To confirm the completion of the mission \"{{description}}\", please enter your {{platform}} user ID.",
+    "submit": "Send for Review",
+    "platforms": {
+      "instagram": "Instagram",
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "x": "X (formerly Twitter)"
+    },
+    "labels": {
+      "instagram": "Instagram ID (without @)",
+      "telegram": "Telegram ID (without @)",
+      "youtube": "YouTube Channel Name",
+      "x": "X ID (without @)"
+    },
+    "error": "Please enter your {{platform}} ID."
+  },
+  "categories_list": {
+    "food": "Food",
+    "health": "Health & Treatment",
+    "education": "Education",
+    "environment": "Environment",
+    "animals": "Animal Support",
+    "children": "Children",
+    "entrepreneurship": "Entrepreneurship",
+    "other": "Other"
+  },
+  "predefined_tasks": {
+    "instagram_dm": "Send a direct message to ten people",
+    "instagram_like_comment": "Like and comment",
+    "instagram_follow": "Follow the page",
+    "instagram_story": "Post a story on your personal page",
+    "telegram_dm": "Send a message to ten people",
+    "telegram_follow": "Follow two channels (verified)",
+    "telegram_bot": "Join the Karma bot",
+    "youtube_watch": "Watch content on YouTube",
+    "youtube_subscribe": "Subscribe to two YouTube channels",
+    "x_retweet": "Retweet the campaign post",
+    "x_like": "Like the campaign post",
+    "shop_karma": "Purchase a product through the Karma store",
+    "shop_direct": "Purchase directly from the site or enter the product code"
+  },
+  "mission_details": {
+    "food": {
+      "label": "Provide food for the needy",
+      "quantityLabel": "Number of meals"
+    },
+    "school_supplies": {
+      "label": "Provide bags with school supplies",
+      "quantityLabel": "Number of bags"
+    },
+    "medical": {
+      "label": "Cover treatment costs for children with cancer",
+      "quantityLabel": "Number of children covered"
+    },
+    "production": {
+      "label": "Launch a production unit",
+      "quantityLabel": "Number of production units"
+    }
+  },
+  "karma_club_rewards": {
+    "investment": {
+      "category_title": "Investment",
+      "clothing": "Clothing Production",
+      "clothing_desc": "Invest in Karma's clothing production.",
+      "shoes": "Shoe Production",
+      "shoes_desc": "Invest in Karma's shoe production.",
+      "home_goods": "Home Goods",
+      "home_goods_desc": "Invest in Karma's home goods production.",
+      "karma_coin": "Karma Currency",
+      "karma_coin_desc": "Purchase Karma's digital currency."
+    },
+    "discounts": {
+      "category_title": "Discounts",
+      "store": "Store Discount",
+      "store_desc": "Discount code for selected Karma stores.",
+      "store_verified": "Store Discount (verified)",
+      "store_verified_desc": "Special discount code for eco-friendly stores.",
+      "restaurant": "Restaurant Discount",
+      "restaurant_desc": "Discount code for partner restaurants.",
+      "appliances": "Home Appliances Discount",
+      "appliances_desc": "Discount code for purchasing home appliances."
+    },
+    "courses": {
+      "category_title": "Training Courses",
+      "photoshop": "Online Photoshop Course",
+      "photoshop_desc": "Access to the complete Photoshop training course.",
+      "online": "Online Course",
+      "online_desc": "Access to one of the selected online training courses.",
+      "filimo": "Filimo Account",
+      "filimo_desc": "One-month subscription to the Filimo movie streaming service.",
+      "photoshop_premium": "Buy Photoshop Premium",
+      "photoshop_premium_desc": "Receive a one-year license for Photoshop."
+    }
+  },
+  "general": {
+    "select": "Select...",
+    "toman": "Toman"
+  }
+}
